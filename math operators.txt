@@ -1,0 +1,58 @@
+a = 5
+b = 0
+c = 10
+d = 15
+
+b = (a/c)+d #float
+print(b)
+
+b = (a//c)+d #int
+print(b)
+
+#-----------------------------------
+
+a = 1
+b = 2
+x = 3
+y = 4
+
+y = (b * x) / (a/x)
+print (y)
+
+#-----------------------------------
+
+r = float(input("Enter r :"))
+π = 3.14
+s = 0
+
+s = (r ** 2) * π
+print(s)
+
+#-----------------------------------
+#Function
+
+def functionB_float (a, c, d):
+	return (a/c)+d
+print(functionB_float(5, 10, 15))
+
+#-----------------------------------
+
+def functionB_int (a, c, d):
+	return (a//c)+d
+print(functionB_float(5, 10, 15))
+
+#-----------------------------------
+
+def functionY (b, x, a):
+	return (b * x) / (a/x)
+print (functionY (2, 3, 1))
+
+#-----------------------------------
+
+def functionCircleArea (r)
+	π = 3.14
+	return (r ** 2) * π
+print (functionCircleArea (2))
+
+
+
